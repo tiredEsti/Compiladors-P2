@@ -1,0 +1,28 @@
+//prova de repeat loop
+
+//Loop infinit permès per decisió de disseny
+x := 100.5
+repeat -3 do
+	x := x - 1.1
+done
+
+//Loop normal
+y := 300
+repeat 10 do
+	y := y % 2
+done
+
+//Loop amb error lexic
+repeat ? do
+	a := y + 1
+done
+
+//Loop semantic errors
+c := 300
+repeat 10.3 do
+	c := c % 2
+done
+
+repeat 3 / 0 do
+	b := y + 1
+done

@@ -1,0 +1,19 @@
+/*prova de comentari multlinea
+*/
+x := 3
+y := -x
+
+//prova errors semantics
+
+z := x / 0
+b := z * 2
+c := 3.3 % 2
+
+//prova errors sintàctics 
+3 + f
+
+//prova error lèxic
+? := 3
+
+//Prova powe
+a := 3 ** 5
